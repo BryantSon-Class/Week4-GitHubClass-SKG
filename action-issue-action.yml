@@ -1,0 +1,18 @@
+name: Bryant Son 이 이슈를 통한 깃허브 액션
+
+on:
+  issues:
+    types: [opened]
+    
+ jobs:
+   comment:
+     runs-on: ubuntu-latest
+     steps:
+       -uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issue.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: ':wave: 새로 이슈를 만들어 주셔서 감사합니다!'
