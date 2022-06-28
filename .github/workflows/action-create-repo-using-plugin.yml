@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.CUSTOM_PAT }}
+          github-token: ${{ secrets.CUSTOM_TOKEN }}
           script: |
             github.rest.respos.createInOrg({
               org: context.repo.owner,
