@@ -16,7 +16,7 @@ jobs:
         with:
           github-token: ${{ secrets.CUSTOM_TOKEN }}
           script: |
-            github.rest.respos.createInOrg({
+            github.rest.repos.createInOrg({
               org: context.repo.owner,
               name: ${{ github.event.inputs.repo-name }}
             })
