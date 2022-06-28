@@ -1,0 +1,19 @@
+name: Kangdyu's Hello Action
+
+on:
+  workflow_dispatch:
+    inputs:
+      myName:
+        description: "이름을 입력해주세요"
+        required: true
+        default: ""
+
+jobs:
+  Hello-GitHub-Action:
+    runs-on: ubuntu-latest
+    name: just hello
+
+    steps:
+      - name: 안녕하세요, 깃허브 액션
+        run: |
+          echo "* hi * my name is ${{ github.event.inputs.myName }}."
