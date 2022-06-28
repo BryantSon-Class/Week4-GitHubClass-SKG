@@ -1,0 +1,19 @@
+name: hyelim 의 안녕, 깃허브 액션
+
+on:
+  workflow_dispatch:
+     inputs:
+        myName:
+          description: "이름을 입력해 주세요"
+          required: true
+          default: ''
+         
+jobs:
+   Hello-GitHub-Action:
+     runs-on: ubuntu-latest
+     name: 그냥 안녕 인사 ^^
+     
+     steps:
+       - name: 안녕하세요, 깃헙 액션
+         run: |
+            echo "따뜻한 환영 고마워요! 저의 이름은 ${{ github.event.inputs.myName }} 입니다"
