@@ -27,5 +27,5 @@
 - [수업 - Syllabus](https://docs.google.com/document/d/1N3p9yeT7Qcx26UAbI14pWcKBNMehP_pxNGT7K4BitWQ/edit?usp=sharing)
 
 ## 🍿 넷째주:
-- 과제 - 넷째주: 데브옵스 그리고 깃허브 액션 - 10 점
+- [과제 - 넷째주: 데브옵스 그리고 깃허브 액션 - 10 점](https://docs.google.com/document/d/1V6NYs8XzvdhMhwIha1S9X-JiXgX0KLF47_HXa6dTLUY/edit?usp=sharing)
 - [Quiz 4 - 5점](https://forms.gle/QuLCwBTk7YF5Yd1c8)
